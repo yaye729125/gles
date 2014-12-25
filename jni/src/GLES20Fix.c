@@ -2,7 +2,7 @@
 #include <GLES2/gl2.h>
 
 // ===========================================================
-// org.andengine.opengl.GLES20Fix
+// com.orange.opengl.GLES20Fix
 // ===========================================================
 
 void Java_org_andengine_opengl_GLES20Fix_glVertexAttribPointer (JNIEnv *env, jclass c, jint index, jint size, jint type, jboolean normalized, jint stride, jint offset) {
